@@ -2,8 +2,8 @@
 
 Official implementation for the paper:  **Improving LLM Unlearning Robustness via Random Perturbations**, Dang Huu-Tien and Hoang Thanh-Tung and Anh Tuan Bui and Phuong Minh Nguyen and Le-Minh Nguyen and Naoya Inoue, **TMLR**, 2026.
 
-## Installation
----
+## Abstract
+Here, we show that current LLM unlearning methods inherently reduce models' robustness, causing them to misbehave even when a single non-adversarial forget-token is present in the retain-query. Toward understanding underlying causes, we propose a novel theoretical framework that reframes the unlearning process as a backdoor attack and defense problem: we formulate how the forgetting process inadvertently learns to align forget-tokens (backdoor triggers) with the target-representations (target labels). As a result, forget-tokens act as backdoor triggers that, when activated in retain-queries, cause disruptions in unlearned models' behaviors, similar to successful backdoor attacks. The sense that, LLM unlearning methods themselves poison the model, make it more vulnerable to forget-tokens, and hide rather than erase target knowledge, describes their true mechanism. To mitigate the vulnerability caused by the forgetting process, we reinterpret the retaining process as a backdoor defense and propose Random Noise Augmentation (RNA), a lightweight, model and method-agnostic approach with theoretical guarantees for improving the robustness of unlearned models. Extensive experiments demonstrate that RNA significantly improves the robustness of unlearned models while preserving forget and retain performances. This backdoor attack-defense framework offers insights into the mechanism of unlearning that can shed light on future research directions for improving unlearning robustness.
 
 ## Installation
 
@@ -77,13 +77,13 @@ Trained models will be saved at ```checkpoints/```
 
 ```
 @article{
-huu-tien2026improving,
-title={Improving {LLM} Unlearning Robustness via Random Perturbations},
-author={Dang Huu-Tien and Hoang Thanh-Tung and Anh Tuan Bui and Phuong Minh Nguyen and Le-Minh Nguyen and Naoya Inoue},
-journal={Transactions on Machine Learning Research},
-issn={2835-8856},
-year={2026},
-url={https://openreview.net/forum?id=QYw192hTdH},
-note={}
+    huu-tien2026improving,
+    title={Improving {LLM} Unlearning Robustness via Random Perturbations},
+    author={Dang Huu-Tien and Hoang Thanh-Tung and Anh Tuan Bui and Phuong Minh Nguyen and Le-Minh Nguyen and Naoya Inoue},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
+    year={2026},
+    url={https://openreview.net/forum?id=QYw192hTdH},
+    note={}
 }
 ```
