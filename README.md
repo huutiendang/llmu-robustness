@@ -1,6 +1,10 @@
 # llmu-robustness
 
-Official implementation for the paper:  **Improving LLM Unlearning Robustness via Random Perturbations**, Dang Huu-Tien and Hoang Thanh-Tung and Anh Tuan Bui and Phuong Minh Nguyen and Le-Minh Nguyen and Naoya Inoue, **Transactions on Machine Learning Research**, 2026.
+Official implementation for the paper:  **Improving LLM Unlearning Robustness via Random Perturbations**, 
+
+Dang Huu-Tien and Hoang Thanh-Tung and Anh Tuan Bui and Phuong Minh Nguyen and Le-Minh Nguyen and Naoya Inoue, 
+
+**Transactions on Machine Learning Research**, 2026.
 
 ## Installation
 ---
