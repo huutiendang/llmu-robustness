@@ -1,7 +1,8 @@
 # llmu-robustness
 
-Official implementation for the paper:  **Improving LLM Unlearning Robustness via Random Perturbations**
+Official implementation for the paper:  **Improving LLM Unlearning Robustness via Random Perturbations**, Dang Huu-Tien and Hoang Thanh-Tung and Anh Tuan Bui and Phuong Minh Nguyen and Le-Minh Nguyen and Naoya Inoue, **Transactions on Machine Learning Research**, 2026.
 
+## Installation
 ---
 
 ## Installation
@@ -70,4 +71,19 @@ Trained models will be saved at ```checkpoints/```
     --model_args pretrained=$CHECK_POINT \
     --tasks mmlu,wmdp \
     --batch_size=16
+```
+
+## Citations
+
+```
+@article{
+huu-tien2026improving,
+title={Improving {LLM} Unlearning Robustness via Random Perturbations},
+author={Dang Huu-Tien and Hoang Thanh-Tung and Anh Tuan Bui and Phuong Minh Nguyen and Le-Minh Nguyen and Naoya Inoue},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=QYw192hTdH},
+note={}
+}
 ```
